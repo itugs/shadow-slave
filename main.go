@@ -1,10 +1,11 @@
 package main
 
 import (
-	redis "./redis"
 	"flag"
-	log "github.com/Sirupsen/logrus"
 	"os"
+
+	redis "./redis"
+	log "github.com/Sirupsen/logrus"
 )
 
 func main() {
